@@ -1,0 +1,541 @@
+[21:35:39,381] INFO  {CodeInstrumentation} no user defined instrumentation exceptions detected
+[00:00:02,000] INFO  {HostMngrComp} <nid:1>initiating...
+[00:00:02,000] INFO  {HostMngrComp} <nid:1>starting...
+[00:00:03,065] INFO  {HostMngrComp} <nid:2>initiating...
+[00:00:03,065] INFO  {HostMngrComp} <nid:2>starting...
+[00:00:04,000] WARN  {CroupierComp} <nid:1,oid:CROUPIER,o:01,bId:0> no partners - not shuffling
+[00:00:04,160] INFO  {HostMngrComp} <nid:3>initiating...
+[00:00:04,160] INFO  {HostMngrComp} <nid:3>starting...
+[00:00:05,065] WARN  {CroupierComp} <nid:2,oid:CROUPIER,o:01,bId:0> no neighbours
+[00:00:05,246] INFO  {HostMngrComp} <nid:4>initiating...
+[00:00:05,246] INFO  {HostMngrComp} <nid:4>starting...
+[00:00:06,000] INFO  {GBEBComp} <nid:1> Updating Add History with <nid:2>
+[00:00:06,000] INFO  {AppComp} <nid:1> Store = [1, 2]
+[00:00:06,160] WARN  {CroupierComp} <nid:3,oid:CROUPIER,o:01,bId:0> no neighbours
+[00:00:06,292] INFO  {HostMngrComp} <nid:5>initiating...
+[00:00:06,292] INFO  {HostMngrComp} <nid:5>starting...
+[00:00:07,065] INFO  {GBEBComp} <nid:2> Updating Add History with <nid:1>
+[00:00:07,065] INFO  {GBEBComp} <nid:2> Updating Add History with <nid:3>
+[00:00:07,065] INFO  {AppComp} <nid:2> Store = [2, 1]
+[00:00:07,065] INFO  {AppComp} <nid:2> Store = [2, 1, 3]
+[00:00:07,246] WARN  {CroupierComp} <nid:4,oid:CROUPIER,o:01,bId:0> no neighbours
+[00:00:07,292] INFO  {HostMngrComp} <nid:11>initiating...
+[00:00:07,292] INFO  {HostMngrComp} <nid:11>starting...
+[00:00:07,292] INFO  {AppComp} <nid:11> Send Remove 1
+[00:00:08,000] INFO  {GBEBComp} <nid:1> Updating Add History with <nid:2>
+[00:00:08,000] INFO  {AppComp} <nid:1> Store = [1, 2, 3]
+[00:00:08,160] INFO  {GBEBComp} <nid:3> Updating Add History with <nid:1>
+[00:00:08,160] INFO  {AppComp} <nid:3> Store = [3, 1]
+[00:00:08,160] INFO  {AppComp} <nid:3> Store = [3, 1, 2]
+[00:00:08,292] WARN  {CroupierComp} <nid:5,oid:CROUPIER,o:01,bId:0> no neighbours
+[00:00:08,326] INFO  {HostMngrComp} <nid:12>initiating...
+[00:00:08,326] INFO  {HostMngrComp} <nid:12>starting...
+[00:00:08,326] INFO  {AppComp} <nid:12> Send Remove 2
+[00:00:09,065] INFO  {GBEBComp} <nid:2> Updating Add History with <nid:4>
+[00:00:09,065] INFO  {AppComp} <nid:2> Store = [2, 1, 3, 4]
+[00:00:09,246] INFO  {GBEBComp} <nid:4> Updating Add History with <nid:1>
+[00:00:09,246] INFO  {AppComp} <nid:4> Store = [4, 1]
+[00:00:09,246] INFO  {GBEBComp} <nid:4> Updating Add History with <nid:5>
+[00:00:09,246] INFO  {AppComp} <nid:4> Store = [4, 1, 2]
+[00:00:09,246] INFO  {AppComp} <nid:4> Store = [4, 1, 2, 3]
+[00:00:09,246] INFO  {AppComp} <nid:4> Store = [4, 1, 2, 3, 5]
+[00:00:09,292] WARN  {CroupierComp} <nid:11,oid:CROUPIER,o:01,bId:0> no neighbours
+[00:00:09,346] INFO  {HostMngrComp} <nid:13>initiating...
+[00:00:09,346] INFO  {HostMngrComp} <nid:13>starting...
+[00:00:09,346] INFO  {AppComp} <nid:13> Send Remove 3
+[00:00:10,000] INFO  {GBEBComp} <nid:1> Updating Add History with <nid:2>
+[00:00:10,000] INFO  {GBEBComp} <nid:1> Updating Add History with <nid:4>
+[00:00:10,000] INFO  {AppComp} <nid:1> Store = [1, 2, 3, 4]
+[00:00:10,000] INFO  {AppComp} <nid:1> Store = [1, 2, 3, 4, 5]
+[00:00:10,160] INFO  {GBEBComp} <nid:3> Updating Add History with <nid:1>
+[00:00:10,160] INFO  {AppComp} <nid:3> Store = [3, 1, 2, 4]
+[00:00:10,160] INFO  {AppComp} <nid:3> Store = [3, 1, 2, 4, 5]
+[00:00:10,292] INFO  {GBEBComp} <nid:5> Updating Add History with <nid:1>
+[00:00:10,292] INFO  {AppComp} <nid:5> Store = [5, 1]
+[00:00:10,292] INFO  {AppComp} <nid:5> Store = [5, 1, 2]
+[00:00:10,292] INFO  {AppComp} <nid:5> Store = [5, 1, 2, 3]
+[00:00:10,292] INFO  {AppComp} <nid:5> Store = [5, 1, 2, 3, 4]
+[00:00:10,326] WARN  {CroupierComp} <nid:12,oid:CROUPIER,o:01,bId:0> no neighbours
+[00:00:10,381] INFO  {HostMngrComp} <nid:14>initiating...
+[00:00:10,381] INFO  {HostMngrComp} <nid:14>starting...
+[00:00:10,381] INFO  {AppComp} <nid:14> Send Remove 4
+[00:00:11,065] INFO  {GBEBComp} <nid:2> Updating Add History with <nid:1>
+[00:00:11,065] INFO  {AppComp} <nid:2> Store = [2, 1, 3, 4, 5]
+[00:00:11,292] INFO  {GBEBComp} <nid:11> Updating Add History with <nid:1>
+[00:00:11,292] INFO  {AppComp} <nid:11> Store = [1]
+[00:00:11,292] INFO  {AppComp} <nid:11> Store = [1, 2]
+[00:00:11,292] INFO  {AppComp} <nid:11> Store = [1, 2, 3]
+[00:00:11,292] INFO  {AppComp} <nid:11> Store = [1, 2, 3, 4]
+[00:00:11,292] INFO  {AppComp} <nid:11> Store = [1, 2, 3, 4, 5]
+[00:00:11,346] WARN  {CroupierComp} <nid:13,oid:CROUPIER,o:01,bId:0> no neighbours
+[00:00:11,443] INFO  {HostMngrComp} <nid:15>initiating...
+[00:00:11,443] INFO  {HostMngrComp} <nid:15>starting...
+[00:00:11,443] INFO  {AppComp} <nid:15> Send Remove 5
+[00:00:12,326] INFO  {GBEBComp} <nid:12> Updating Add History with <nid:11>
+[00:00:12,326] INFO  {AppComp} <nid:12> Store = [1]
+[00:00:12,326] INFO  {AppComp} <nid:12> Store = [1, 2]
+[00:00:12,326] INFO  {AppComp} <nid:12> Store = [1, 2, 3]
+[00:00:12,326] INFO  {AppComp} <nid:12> Store = [1, 2, 3, 4]
+[00:00:12,326] INFO  {AppComp} <nid:12> Store = [1, 2, 3, 4, 5]
+[00:00:12,381] WARN  {CroupierComp} <nid:14,oid:CROUPIER,o:01,bId:0> no neighbours
+[00:00:13,346] INFO  {GBEBComp} <nid:13> Updating Add History with <nid:11>
+[00:00:13,346] INFO  {AppComp} <nid:13> Store = [1]
+[00:00:13,346] INFO  {AppComp} <nid:13> Store = [1, 2]
+[00:00:13,346] INFO  {AppComp} <nid:13> Store = [1, 2, 3]
+[00:00:13,346] INFO  {AppComp} <nid:13> Store = [1, 2, 3, 4]
+[00:00:13,346] INFO  {AppComp} <nid:13> Store = [1, 2, 3, 4, 5]
+[00:00:13,443] WARN  {CroupierComp} <nid:15,oid:CROUPIER,o:01,bId:0> no neighbours
+[00:00:14,381] INFO  {GBEBComp} <nid:14> Updating Add History with <nid:11>
+[00:00:14,381] INFO  {AppComp} <nid:14> Store = [1]
+[00:00:14,381] INFO  {AppComp} <nid:14> Store = [1, 2]
+[00:00:14,381] INFO  {AppComp} <nid:14> Store = [1, 2, 3]
+[00:00:14,381] INFO  {AppComp} <nid:14> Store = [1, 2, 3, 4]
+[00:00:14,381] INFO  {AppComp} <nid:14> Store = [1, 2, 3, 4, 5]
+[00:00:15,443] INFO  {GBEBComp} <nid:15> Updating Add History with <nid:11>
+[00:00:15,443] INFO  {AppComp} <nid:15> Store = [1]
+[00:00:15,443] INFO  {AppComp} <nid:15> Store = [1, 2]
+[00:00:15,443] INFO  {AppComp} <nid:15> Store = [1, 2, 3]
+[00:00:15,443] INFO  {AppComp} <nid:15> Store = [1, 2, 3, 4]
+[00:00:15,443] INFO  {AppComp} <nid:15> Store = [1, 2, 3, 4, 5]
+[00:00:02,000] INFO  {HostMngrComp} <nid:1>initiating...
+[00:00:02,000] INFO  {HostMngrComp} <nid:1>starting...
+[00:00:03,065] INFO  {HostMngrComp} <nid:2>initiating...
+[00:00:03,065] INFO  {HostMngrComp} <nid:2>starting...
+[00:00:04,000] WARN  {CroupierComp} <nid:1,oid:CROUPIER,o:01,bId:0> no partners - not shuffling
+[00:00:04,160] INFO  {HostMngrComp} <nid:3>initiating...
+[00:00:04,160] INFO  {HostMngrComp} <nid:3>starting...
+[00:00:05,065] WARN  {CroupierComp} <nid:2,oid:CROUPIER,o:01,bId:0> no neighbours
+[00:00:05,246] INFO  {HostMngrComp} <nid:4>initiating...
+[00:00:05,246] INFO  {HostMngrComp} <nid:4>starting...
+[00:00:06,000] INFO  {GBEBComp} <nid:1> Updating Add History with <nid:2>
+[00:00:06,000] INFO  {AppComp} <nid:1> Store = [1, 2]
+[00:00:06,160] WARN  {CroupierComp} <nid:3,oid:CROUPIER,o:01,bId:0> no neighbours
+[00:00:06,292] INFO  {HostMngrComp} <nid:5>initiating...
+[00:00:06,292] INFO  {HostMngrComp} <nid:5>starting...
+[00:00:07,065] INFO  {GBEBComp} <nid:2> Updating Add History with <nid:1>
+[00:00:07,065] INFO  {GBEBComp} <nid:2> Updating Add History with <nid:3>
+[00:00:07,065] INFO  {AppComp} <nid:2> Store = [2, 1]
+[00:00:07,065] INFO  {AppComp} <nid:2> Store = [2, 1, 3]
+[00:00:07,246] WARN  {CroupierComp} <nid:4,oid:CROUPIER,o:01,bId:0> no neighbours
+[00:00:07,292] INFO  {HostMngrComp} <nid:11>initiating...
+[00:00:07,292] INFO  {HostMngrComp} <nid:11>starting...
+[00:00:07,292] INFO  {AppComp} <nid:11> Send Remove 1
+[00:00:08,000] INFO  {GBEBComp} <nid:1> Updating Add History with <nid:2>
+[00:00:08,000] INFO  {AppComp} <nid:1> Store = [1, 2, 3]
+[00:00:08,160] INFO  {GBEBComp} <nid:3> Updating Add History with <nid:1>
+[00:00:08,160] INFO  {AppComp} <nid:3> Store = [3, 1]
+[00:00:08,160] INFO  {AppComp} <nid:3> Store = [3, 1, 2]
+[00:00:08,292] WARN  {CroupierComp} <nid:5,oid:CROUPIER,o:01,bId:0> no neighbours
+[00:00:08,326] INFO  {HostMngrComp} <nid:12>initiating...
+[00:00:08,326] INFO  {HostMngrComp} <nid:12>starting...
+[00:00:08,326] INFO  {AppComp} <nid:12> Send Remove 2
+[00:00:09,065] INFO  {GBEBComp} <nid:2> Updating Add History with <nid:4>
+[00:00:09,065] INFO  {AppComp} <nid:2> Store = [2, 1, 3, 4]
+[00:00:09,246] INFO  {GBEBComp} <nid:4> Updating Add History with <nid:1>
+[00:00:09,246] INFO  {AppComp} <nid:4> Store = [4, 1]
+[00:00:09,246] INFO  {GBEBComp} <nid:4> Updating Add History with <nid:5>
+[00:00:09,246] INFO  {AppComp} <nid:4> Store = [4, 1, 2]
+[00:00:09,246] INFO  {AppComp} <nid:4> Store = [4, 1, 2, 3]
+[00:00:09,246] INFO  {AppComp} <nid:4> Store = [4, 1, 2, 3, 5]
+[00:00:09,292] WARN  {CroupierComp} <nid:11,oid:CROUPIER,o:01,bId:0> no neighbours
+[00:00:09,346] INFO  {HostMngrComp} <nid:13>initiating...
+[00:00:09,346] INFO  {HostMngrComp} <nid:13>starting...
+[00:00:09,346] INFO  {AppComp} <nid:13> Send Remove 3
+[00:00:10,000] INFO  {GBEBComp} <nid:1> Updating Add History with <nid:2>
+[00:00:10,000] INFO  {GBEBComp} <nid:1> Updating Add History with <nid:4>
+[00:00:10,000] INFO  {AppComp} <nid:1> Store = [1, 2, 3, 4]
+[00:00:10,000] INFO  {AppComp} <nid:1> Store = [1, 2, 3, 4, 5]
+[00:00:10,160] INFO  {GBEBComp} <nid:3> Updating Add History with <nid:1>
+[00:00:10,160] INFO  {AppComp} <nid:3> Store = [3, 1, 2, 4]
+[00:00:10,160] INFO  {AppComp} <nid:3> Store = [3, 1, 2, 4, 5]
+[00:00:10,292] INFO  {GBEBComp} <nid:5> Updating Add History with <nid:1>
+[00:00:10,292] INFO  {AppComp} <nid:5> Store = [5, 1]
+[00:00:10,292] INFO  {AppComp} <nid:5> Store = [5, 1, 2]
+[00:00:10,292] INFO  {AppComp} <nid:5> Store = [5, 1, 2, 3]
+[00:00:10,292] INFO  {AppComp} <nid:5> Store = [5, 1, 2, 3, 4]
+[00:00:10,326] WARN  {CroupierComp} <nid:12,oid:CROUPIER,o:01,bId:0> no neighbours
+[00:00:10,381] INFO  {HostMngrComp} <nid:14>initiating...
+[00:00:10,381] INFO  {HostMngrComp} <nid:14>starting...
+[00:00:10,381] INFO  {AppComp} <nid:14> Send Remove 4
+[00:00:11,065] INFO  {GBEBComp} <nid:2> Updating Add History with <nid:1>
+[00:00:11,065] INFO  {AppComp} <nid:2> Store = [2, 1, 3, 4, 5]
+[00:00:11,246] INFO  {AppComp} <nid:4> Removing 1
+[00:00:11,246] INFO  {AppComp} <nid:4> Store = [4, 2, 3, 5]
+[00:00:11,246] INFO  {AppComp} <nid:4> Removing 2
+[00:00:11,246] INFO  {AppComp} <nid:4> Store = [4, 3, 5]
+[00:00:11,292] INFO  {GBEBComp} <nid:11> Updating Add History with <nid:1>
+[00:00:11,292] INFO  {AppComp} <nid:11> Store = [2]
+[00:00:11,292] INFO  {AppComp} <nid:11> Store = [2, 3]
+[00:00:11,292] INFO  {AppComp} <nid:11> Store = [2, 3, 4]
+[00:00:11,292] INFO  {AppComp} <nid:11> Store = [2, 3, 4, 5]
+[00:00:11,292] INFO  {AppComp} <nid:11> Removing 2
+[00:00:11,292] INFO  {AppComp} <nid:11> Store = [3, 4, 5]
+[00:00:11,346] WARN  {CroupierComp} <nid:13,oid:CROUPIER,o:01,bId:0> no neighbours
+[00:00:11,443] INFO  {HostMngrComp} <nid:15>initiating...
+[00:00:11,443] INFO  {HostMngrComp} <nid:15>starting...
+[00:00:11,443] INFO  {AppComp} <nid:15> Send Remove 5
+[00:00:12,000] INFO  {AppComp} <nid:1> Removing 1
+[00:00:12,000] INFO  {AppComp} <nid:1> Store = [2, 3, 4, 5]
+[00:00:12,000] INFO  {AppComp} <nid:1> Removing 2
+[00:00:12,000] INFO  {AppComp} <nid:1> Store = [3, 4, 5]
+[00:00:12,160] INFO  {AppComp} <nid:3> Removing 1
+[00:00:12,160] INFO  {AppComp} <nid:3> Store = [3, 2, 4, 5]
+[00:00:12,160] INFO  {AppComp} <nid:3> Removing 2
+[00:00:12,160] INFO  {AppComp} <nid:3> Store = [3, 4, 5]
+[00:00:12,292] INFO  {AppComp} <nid:5> Removing 1
+[00:00:12,292] INFO  {AppComp} <nid:5> Store = [5, 2, 3, 4]
+[00:00:12,292] INFO  {AppComp} <nid:5> Removing 2
+[00:00:12,292] INFO  {AppComp} <nid:5> Store = [5, 3, 4]
+[00:00:12,326] INFO  {GBEBComp} <nid:12> Updating Add History with <nid:11>
+[00:00:12,326] INFO  {AppComp} <nid:12> Store = [3]
+[00:00:12,326] INFO  {AppComp} <nid:12> Store = [3, 4]
+[00:00:12,326] INFO  {AppComp} <nid:12> Store = [3, 4, 5]
+[00:00:12,326] INFO  {AppComp} <nid:12> Removing 1
+[00:00:12,326] INFO  {AppComp} <nid:12> Store = [3, 4, 5]
+[00:00:12,381] WARN  {CroupierComp} <nid:14,oid:CROUPIER,o:01,bId:0> no neighbours
+[00:00:13,065] INFO  {AppComp} <nid:2> Removing 1
+[00:00:13,065] INFO  {AppComp} <nid:2> Store = [2, 3, 4, 5]
+[00:00:13,065] INFO  {AppComp} <nid:2> Removing 2
+[00:00:13,065] INFO  {AppComp} <nid:2> Store = [3, 4, 5]
+[00:00:13,292] INFO  {AppComp} <nid:11> Removing 3
+[00:00:13,292] INFO  {AppComp} <nid:11> Store = [4, 5]
+[00:00:13,346] INFO  {GBEBComp} <nid:13> Updating Add History with <nid:11>
+[00:00:13,346] INFO  {AppComp} <nid:13> Store = [4]
+[00:00:13,346] INFO  {AppComp} <nid:13> Store = [4, 5]
+[00:00:13,346] INFO  {AppComp} <nid:13> Removing 1
+[00:00:13,346] INFO  {AppComp} <nid:13> Store = [4, 5]
+[00:00:13,346] INFO  {AppComp} <nid:13> Removing 2
+[00:00:13,346] INFO  {AppComp} <nid:13> Store = [4, 5]
+[00:00:13,346] INFO  {AppComp} <nid:13> Removing 4
+[00:00:13,346] INFO  {AppComp} <nid:13> Store = [5]
+[00:00:13,443] WARN  {CroupierComp} <nid:15,oid:CROUPIER,o:01,bId:0> no neighbours
+[00:00:14,000] INFO  {AppComp} <nid:1> Removing 3
+[00:00:14,000] INFO  {AppComp} <nid:1> Store = [4, 5]
+[00:00:14,000] INFO  {AppComp} <nid:1> Removing 4
+[00:00:14,000] INFO  {AppComp} <nid:1> Store = [5]
+[00:00:14,160] INFO  {AppComp} <nid:3> Removing 3
+[00:00:14,160] INFO  {AppComp} <nid:3> Store = [4, 5]
+[00:00:14,160] INFO  {AppComp} <nid:3> Removing 4
+[00:00:14,160] INFO  {AppComp} <nid:3> Store = [5]
+[00:00:14,292] INFO  {AppComp} <nid:5> Removing 3
+[00:00:14,292] INFO  {AppComp} <nid:5> Store = [5, 4]
+[00:00:14,292] INFO  {AppComp} <nid:5> Removing 4
+[00:00:14,292] INFO  {AppComp} <nid:5> Store = [5]
+[00:00:14,326] INFO  {AppComp} <nid:12> Removing 3
+[00:00:14,326] INFO  {AppComp} <nid:12> Store = [4, 5]
+[00:00:14,326] INFO  {AppComp} <nid:12> Removing 4
+[00:00:14,326] INFO  {AppComp} <nid:12> Store = [5]
+[00:00:14,381] INFO  {GBEBComp} <nid:14> Updating Add History with <nid:11>
+[00:00:14,381] INFO  {AppComp} <nid:14> Store = [5]
+[00:00:14,381] INFO  {AppComp} <nid:14> Removing 1
+[00:00:14,381] INFO  {AppComp} <nid:14> Store = [5]
+[00:00:14,381] INFO  {AppComp} <nid:14> Removing 2
+[00:00:14,381] INFO  {AppComp} <nid:14> Store = [5]
+[00:00:14,381] INFO  {AppComp} <nid:14> Removing 3
+[00:00:14,381] INFO  {AppComp} <nid:14> Store = [5]
+[00:00:15,065] INFO  {AppComp} <nid:2> Removing 3
+[00:00:15,065] INFO  {AppComp} <nid:2> Store = [4, 5]
+[00:00:15,065] INFO  {AppComp} <nid:2> Removing 4
+[00:00:15,065] INFO  {AppComp} <nid:2> Store = [5]
+[00:00:15,246] INFO  {AppComp} <nid:4> Removing 3
+[00:00:15,246] INFO  {AppComp} <nid:4> Store = [4, 5]
+[00:00:15,246] INFO  {AppComp} <nid:4> Removing 4
+[00:00:15,246] INFO  {AppComp} <nid:4> Store = [5]
+[00:00:15,292] INFO  {AppComp} <nid:11> Removing 4
+[00:00:15,292] INFO  {AppComp} <nid:11> Store = [5]
+[00:00:15,346] INFO  {AppComp} <nid:13> Removing 5
+[00:00:15,346] INFO  {AppComp} <nid:13> Store = []
+[00:00:15,443] INFO  {AppComp} <nid:15> Removing 1
+[00:00:15,443] INFO  {AppComp} <nid:15> Store = []
+[00:00:15,443] INFO  {AppComp} <nid:15> Removing 2
+[00:00:15,443] INFO  {AppComp} <nid:15> Store = []
+[00:00:15,443] INFO  {AppComp} <nid:15> Removing 3
+[00:00:15,443] INFO  {AppComp} <nid:15> Store = []
+[00:00:15,443] INFO  {AppComp} <nid:15> Removing 4
+[00:00:15,443] INFO  {AppComp} <nid:15> Store = []
+[00:00:16,000] INFO  {AppComp} <nid:1> Removing 5
+[00:00:16,000] INFO  {AppComp} <nid:1> Store = []
+[00:00:16,160] INFO  {AppComp} <nid:3> Removing 5
+[00:00:16,160] INFO  {AppComp} <nid:3> Store = []
+[00:00:16,292] INFO  {AppComp} <nid:5> Removing 5
+[00:00:16,292] INFO  {AppComp} <nid:5> Store = []
+[00:00:16,326] INFO  {AppComp} <nid:12> Removing 5
+[00:00:16,326] INFO  {AppComp} <nid:12> Store = []
+[00:00:16,381] INFO  {AppComp} <nid:14> Removing 5
+[00:00:16,381] INFO  {AppComp} <nid:14> Store = []
+[00:00:17,065] INFO  {AppComp} <nid:2> Removing 5
+[00:00:17,065] INFO  {AppComp} <nid:2> Store = []
+[00:00:17,246] INFO  {AppComp} <nid:4> Removing 5
+[00:00:17,246] INFO  {AppComp} <nid:4> Store = []
+[00:00:17,292] INFO  {AppComp} <nid:11> Removing 5
+[00:00:17,292] INFO  {AppComp} <nid:11> Store = []
+[00:00:02,000] INFO  {HostMngrComp} <nid:1>initiating...
+[00:00:02,000] INFO  {HostMngrComp} <nid:1>starting...
+[00:00:03,065] INFO  {HostMngrComp} <nid:2>initiating...
+[00:00:03,065] INFO  {HostMngrComp} <nid:2>starting...
+[00:00:04,000] WARN  {CroupierComp} <nid:1,oid:CROUPIER,o:01,bId:0> no partners - not shuffling
+[00:00:04,160] INFO  {HostMngrComp} <nid:3>initiating...
+[00:00:04,160] INFO  {HostMngrComp} <nid:3>starting...
+[00:00:05,065] WARN  {CroupierComp} <nid:2,oid:CROUPIER,o:01,bId:0> no neighbours
+[00:00:05,246] INFO  {HostMngrComp} <nid:4>initiating...
+[00:00:05,246] INFO  {HostMngrComp} <nid:4>starting...
+[00:00:06,000] INFO  {GBEBComp} <nid:1> Updating Add History with <nid:2>
+[00:00:06,000] INFO  {AppComp} <nid:1> Store = [1, 2]
+[00:00:06,160] WARN  {CroupierComp} <nid:3,oid:CROUPIER,o:01,bId:0> no neighbours
+[00:00:06,292] INFO  {HostMngrComp} <nid:5>initiating...
+[00:00:06,292] INFO  {HostMngrComp} <nid:5>starting...
+[00:00:07,065] INFO  {GBEBComp} <nid:2> Updating Add History with <nid:1>
+[00:00:07,065] INFO  {GBEBComp} <nid:2> Updating Add History with <nid:3>
+[00:00:07,065] INFO  {AppComp} <nid:2> Store = [2, 1]
+[00:00:07,065] INFO  {AppComp} <nid:2> Store = [2, 1, 3]
+[00:00:07,246] WARN  {CroupierComp} <nid:4,oid:CROUPIER,o:01,bId:0> no neighbours
+[00:00:07,292] INFO  {HostMngrComp} <nid:11>initiating...
+[00:00:07,292] INFO  {HostMngrComp} <nid:11>starting...
+[00:00:07,292] INFO  {AppComp} <nid:11> Send Remove 1
+[00:00:08,000] INFO  {GBEBComp} <nid:1> Updating Add History with <nid:2>
+[00:00:08,000] INFO  {AppComp} <nid:1> Store = [1, 2, 3]
+[00:00:08,160] INFO  {GBEBComp} <nid:3> Updating Add History with <nid:1>
+[00:00:08,160] INFO  {AppComp} <nid:3> Store = [3, 1]
+[00:00:08,160] INFO  {AppComp} <nid:3> Store = [3, 1, 2]
+[00:00:08,292] WARN  {CroupierComp} <nid:5,oid:CROUPIER,o:01,bId:0> no neighbours
+[00:00:08,326] INFO  {HostMngrComp} <nid:12>initiating...
+[00:00:08,326] INFO  {HostMngrComp} <nid:12>starting...
+[00:00:08,326] INFO  {AppComp} <nid:12> Send Remove 2
+[00:00:09,065] INFO  {GBEBComp} <nid:2> Updating Add History with <nid:4>
+[00:00:09,065] INFO  {AppComp} <nid:2> Store = [2, 1, 3, 4]
+[00:00:09,246] INFO  {GBEBComp} <nid:4> Updating Add History with <nid:1>
+[00:00:09,246] INFO  {AppComp} <nid:4> Store = [4, 1]
+[00:00:09,246] INFO  {GBEBComp} <nid:4> Updating Add History with <nid:5>
+[00:00:09,246] INFO  {AppComp} <nid:4> Store = [4, 1, 2]
+[00:00:09,246] INFO  {AppComp} <nid:4> Store = [4, 1, 2, 3]
+[00:00:09,246] INFO  {AppComp} <nid:4> Store = [4, 1, 2, 3, 5]
+[00:00:09,292] WARN  {CroupierComp} <nid:11,oid:CROUPIER,o:01,bId:0> no neighbours
+[00:00:09,346] INFO  {HostMngrComp} <nid:13>initiating...
+[00:00:09,346] INFO  {HostMngrComp} <nid:13>starting...
+[00:00:09,346] INFO  {AppComp} <nid:13> Send Remove 3
+[00:00:10,000] INFO  {GBEBComp} <nid:1> Updating Add History with <nid:2>
+[00:00:10,000] INFO  {GBEBComp} <nid:1> Updating Add History with <nid:4>
+[00:00:10,000] INFO  {AppComp} <nid:1> Store = [1, 2, 3, 4]
+[00:00:10,000] INFO  {AppComp} <nid:1> Store = [1, 2, 3, 4, 5]
+[00:00:10,160] INFO  {GBEBComp} <nid:3> Updating Add History with <nid:1>
+[00:00:10,160] INFO  {AppComp} <nid:3> Store = [3, 1, 2, 4]
+[00:00:10,160] INFO  {AppComp} <nid:3> Store = [3, 1, 2, 4, 5]
+[00:00:10,292] INFO  {GBEBComp} <nid:5> Updating Add History with <nid:1>
+[00:00:10,292] INFO  {AppComp} <nid:5> Store = [5, 1]
+[00:00:10,292] INFO  {AppComp} <nid:5> Store = [5, 1, 2]
+[00:00:10,292] INFO  {AppComp} <nid:5> Store = [5, 1, 2, 3]
+[00:00:10,292] INFO  {AppComp} <nid:5> Store = [5, 1, 2, 3, 4]
+[00:00:10,326] WARN  {CroupierComp} <nid:12,oid:CROUPIER,o:01,bId:0> no neighbours
+[00:00:10,381] INFO  {HostMngrComp} <nid:14>initiating...
+[00:00:10,381] INFO  {HostMngrComp} <nid:14>starting...
+[00:00:10,381] INFO  {AppComp} <nid:14> Send Remove 4
+[00:00:11,065] INFO  {GBEBComp} <nid:2> Updating Add History with <nid:1>
+[00:00:11,065] INFO  {AppComp} <nid:2> Store = [2, 1, 3, 4, 5]
+[00:00:11,246] INFO  {AppComp} <nid:4> Removing 1
+[00:00:11,246] INFO  {AppComp} <nid:4> Store = [4, 2, 3, 5]
+[00:00:11,246] INFO  {AppComp} <nid:4> Removing 2
+[00:00:11,246] INFO  {AppComp} <nid:4> Store = [4, 3, 5]
+[00:00:11,292] INFO  {GBEBComp} <nid:11> Updating Add History with <nid:1>
+[00:00:11,292] INFO  {AppComp} <nid:11> Store = [2]
+[00:00:11,292] INFO  {AppComp} <nid:11> Store = [2, 3]
+[00:00:11,292] INFO  {AppComp} <nid:11> Store = [2, 3, 4]
+[00:00:11,292] INFO  {AppComp} <nid:11> Store = [2, 3, 4, 5]
+[00:00:11,292] INFO  {AppComp} <nid:11> Removing 2
+[00:00:11,292] INFO  {AppComp} <nid:11> Store = [3, 4, 5]
+[00:00:11,346] WARN  {CroupierComp} <nid:13,oid:CROUPIER,o:01,bId:0> no neighbours
+[00:00:11,443] INFO  {HostMngrComp} <nid:15>initiating...
+[00:00:11,443] INFO  {HostMngrComp} <nid:15>starting...
+[00:00:11,443] INFO  {AppComp} <nid:15> Send Remove 5
+[00:00:12,000] INFO  {AppComp} <nid:1> Removing 1
+[00:00:12,000] INFO  {AppComp} <nid:1> Adding 1 back
+[00:00:12,000] INFO  {AppComp} <nid:1> Store = [2, 3, 4, 5, 1]
+[00:00:12,000] INFO  {AppComp} <nid:1> Removing 2
+[00:00:12,000] INFO  {AppComp} <nid:1> Store = [3, 4, 5, 1]
+[00:00:12,160] INFO  {GBEBComp} <nid:3> Updating Add History with <nid:1>
+[00:00:12,160] INFO  {AppComp} <nid:3> Removing 1
+[00:00:12,160] INFO  {AppComp} <nid:3> Store = [3, 2, 4, 5]
+[00:00:12,160] INFO  {AppComp} <nid:3> Removing 2
+[00:00:12,160] INFO  {AppComp} <nid:3> Store = [3, 4, 5]
+[00:00:12,160] INFO  {AppComp} <nid:3> Store = [3, 4, 5, 1]
+[00:00:12,292] INFO  {GBEBComp} <nid:5> Updating Add History with <nid:1>
+[00:00:12,292] INFO  {AppComp} <nid:5> Store = [5, 2, 3, 4, 1]
+[00:00:12,292] INFO  {AppComp} <nid:5> Removing 2
+[00:00:12,292] INFO  {AppComp} <nid:5> Store = [5, 3, 4, 1]
+[00:00:12,326] INFO  {GBEBComp} <nid:12> Updating Add History with <nid:11>
+[00:00:12,326] INFO  {GBEBComp} <nid:12> Updating Add History with <nid:1>
+[00:00:12,326] INFO  {AppComp} <nid:12> Store = [3]
+[00:00:12,326] INFO  {AppComp} <nid:12> Store = [3, 4]
+[00:00:12,326] INFO  {AppComp} <nid:12> Store = [3, 4, 5]
+[00:00:12,326] INFO  {AppComp} <nid:12> Removing 1
+[00:00:12,326] INFO  {AppComp} <nid:12> Store = [3, 4, 5]
+[00:00:12,326] INFO  {AppComp} <nid:12> Store = [3, 4, 5, 1]
+[00:00:12,381] WARN  {CroupierComp} <nid:14,oid:CROUPIER,o:01,bId:0> no neighbours
+[00:00:13,065] INFO  {GBEBComp} <nid:2> Updating Add History with <nid:1>
+[00:00:13,065] INFO  {AppComp} <nid:2> Removing 1
+[00:00:13,065] INFO  {AppComp} <nid:2> Store = [2, 3, 4, 5]
+[00:00:13,065] INFO  {AppComp} <nid:2> Removing 2
+[00:00:13,065] INFO  {AppComp} <nid:2> Adding 2 back
+[00:00:13,065] INFO  {AppComp} <nid:2> Store = [3, 4, 5, 2]
+[00:00:13,065] INFO  {AppComp} <nid:2> Store = [3, 4, 5, 2, 1]
+[00:00:13,246] INFO  {GBEBComp} <nid:4> Updating Add History with <nid:12>
+[00:00:13,246] INFO  {GBEBComp} <nid:4> Updating Add History with <nid:2>
+[00:00:13,246] INFO  {AppComp} <nid:4> Store = [4, 3, 5, 1]
+[00:00:13,246] INFO  {AppComp} <nid:4> Store = [4, 3, 5, 1, 2]
+[00:00:13,292] INFO  {GBEBComp} <nid:11> Updating Add History with <nid:12>
+[00:00:13,292] INFO  {AppComp} <nid:11> Store = [3, 4, 5, 1]
+[00:00:13,292] INFO  {GBEBComp} <nid:11> Updating Add History with <nid:2>
+[00:00:13,292] INFO  {AppComp} <nid:11> Removing 3
+[00:00:13,292] INFO  {AppComp} <nid:11> Store = [4, 5, 1]
+[00:00:13,292] INFO  {AppComp} <nid:11> Store = [4, 5, 1, 2]
+[00:00:13,346] INFO  {GBEBComp} <nid:13> Updating Add History with <nid:11>
+[00:00:13,346] INFO  {AppComp} <nid:13> Store = [4]
+[00:00:13,346] INFO  {AppComp} <nid:13> Store = [4, 5]
+[00:00:13,346] INFO  {AppComp} <nid:13> Store = [4, 5, 1]
+[00:00:13,346] INFO  {AppComp} <nid:13> Store = [4, 5, 1, 2]
+[00:00:13,346] INFO  {AppComp} <nid:13> Removing 4
+[00:00:13,346] INFO  {AppComp} <nid:13> Store = [5, 1, 2]
+[00:00:13,443] WARN  {CroupierComp} <nid:15,oid:CROUPIER,o:01,bId:0> no neighbours
+[00:00:14,000] INFO  {GBEBComp} <nid:1> Updating Add History with <nid:11>
+[00:00:14,000] INFO  {AppComp} <nid:1> Store = [3, 4, 5, 1, 2]
+[00:00:14,000] INFO  {AppComp} <nid:1> Removing 3
+[00:00:14,000] INFO  {AppComp} <nid:1> Store = [4, 5, 1, 2]
+[00:00:14,000] INFO  {AppComp} <nid:1> Removing 4
+[00:00:14,000] INFO  {AppComp} <nid:1> Store = [5, 1, 2]
+[00:00:14,160] INFO  {GBEBComp} <nid:3> Updating Add History with <nid:11>
+[00:00:14,160] INFO  {AppComp} <nid:3> Store = [3, 4, 5, 1, 2]
+[00:00:14,160] INFO  {AppComp} <nid:3> Removing 3
+[00:00:14,160] INFO  {AppComp} <nid:3> Adding 3 back
+[00:00:14,160] INFO  {AppComp} <nid:3> Store = [4, 5, 1, 2, 3]
+[00:00:14,160] INFO  {AppComp} <nid:3> Removing 4
+[00:00:14,160] INFO  {AppComp} <nid:3> Store = [5, 1, 2, 3]
+[00:00:14,292] INFO  {GBEBComp} <nid:5> Updating Add History with <nid:11>
+[00:00:14,292] INFO  {AppComp} <nid:5> Store = [5, 3, 4, 1, 2]
+[00:00:14,292] INFO  {AppComp} <nid:5> Removing 3
+[00:00:14,292] INFO  {AppComp} <nid:5> Store = [5, 4, 1, 2]
+[00:00:14,292] INFO  {GBEBComp} <nid:5> Updating Add History with <nid:3>
+[00:00:14,292] INFO  {AppComp} <nid:5> Removing 4
+[00:00:14,292] INFO  {AppComp} <nid:5> Store = [5, 1, 2]
+[00:00:14,292] INFO  {AppComp} <nid:5> Store = [5, 1, 2, 3]
+[00:00:14,326] INFO  {GBEBComp} <nid:12> Updating Add History with <nid:11>
+[00:00:14,326] INFO  {AppComp} <nid:12> Store = [3, 4, 5, 1, 2]
+[00:00:14,326] INFO  {AppComp} <nid:12> Removing 3
+[00:00:14,326] INFO  {AppComp} <nid:12> Store = [4, 5, 1, 2]
+[00:00:14,326] INFO  {GBEBComp} <nid:12> Updating Add History with <nid:3>
+[00:00:14,326] INFO  {AppComp} <nid:12> Removing 4
+[00:00:14,326] INFO  {AppComp} <nid:12> Store = [5, 1, 2]
+[00:00:14,326] INFO  {AppComp} <nid:12> Store = [5, 1, 2, 3]
+[00:00:14,381] INFO  {GBEBComp} <nid:14> Updating Add History with <nid:11>
+[00:00:14,381] INFO  {AppComp} <nid:14> Store = [5]
+[00:00:14,381] INFO  {AppComp} <nid:14> Store = [5, 1]
+[00:00:14,381] INFO  {AppComp} <nid:14> Store = [5, 1, 2]
+[00:00:14,381] INFO  {GBEBComp} <nid:14> Updating Add History with <nid:5>
+[00:00:14,381] INFO  {AppComp} <nid:14> Removing 3
+[00:00:14,381] INFO  {AppComp} <nid:14> Store = [5, 1, 2]
+[00:00:14,381] INFO  {AppComp} <nid:14> Store = [5, 1, 2, 3]
+[00:00:15,065] INFO  {GBEBComp} <nid:2> Updating Add History with <nid:12>
+[00:00:15,065] INFO  {AppComp} <nid:2> Removing 3
+[00:00:15,065] INFO  {AppComp} <nid:2> Store = [4, 5, 2, 1]
+[00:00:15,065] INFO  {AppComp} <nid:2> Store = [4, 5, 2, 1, 3]
+[00:00:15,065] INFO  {AppComp} <nid:2> Removing 4
+[00:00:15,065] INFO  {AppComp} <nid:2> Store = [5, 2, 1, 3]
+[00:00:15,246] INFO  {GBEBComp} <nid:4> Updating Add History with <nid:12>
+[00:00:15,246] INFO  {AppComp} <nid:4> Removing 3
+[00:00:15,246] INFO  {AppComp} <nid:4> Store = [4, 5, 1, 2]
+[00:00:15,246] INFO  {AppComp} <nid:4> Store = [4, 5, 1, 2, 3]
+[00:00:15,246] INFO  {AppComp} <nid:4> Removing 4
+[00:00:15,246] INFO  {AppComp} <nid:4> Adding 4 back
+[00:00:15,246] INFO  {AppComp} <nid:4> Store = [5, 1, 2, 3, 4]
+[00:00:15,292] INFO  {GBEBComp} <nid:11> Updating Add History with <nid:12>
+[00:00:15,292] INFO  {AppComp} <nid:11> Store = [4, 5, 1, 2, 3]
+[00:00:15,292] INFO  {AppComp} <nid:11> Removing 4
+[00:00:15,292] INFO  {AppComp} <nid:11> Store = [5, 1, 2, 3]
+[00:00:15,292] INFO  {GBEBComp} <nid:11> Updating Add History with <nid:4>
+[00:00:15,292] INFO  {AppComp} <nid:11> Store = [5, 1, 2, 3, 4]
+[00:00:15,346] INFO  {GBEBComp} <nid:13> Updating Add History with <nid:11>
+[00:00:15,346] INFO  {AppComp} <nid:13> Store = [5, 1, 2, 3]
+[00:00:15,346] INFO  {AppComp} <nid:13> Store = [5, 1, 2, 3, 4]
+[00:00:15,346] INFO  {AppComp} <nid:13> Removing 5
+[00:00:15,346] INFO  {AppComp} <nid:13> Store = [1, 2, 3, 4]
+[00:00:15,443] INFO  {GBEBComp} <nid:15> Updating Add History with <nid:11>
+[00:00:15,443] INFO  {AppComp} <nid:15> Store = [1]
+[00:00:15,443] INFO  {AppComp} <nid:15> Store = [1, 2]
+[00:00:15,443] INFO  {AppComp} <nid:15> Store = [1, 2, 3]
+[00:00:15,443] INFO  {AppComp} <nid:15> Store = [1, 2, 3, 4]
+[00:00:16,000] INFO  {GBEBComp} <nid:1> Updating Add History with <nid:11>
+[00:00:16,000] INFO  {AppComp} <nid:1> Store = [5, 1, 2, 3]
+[00:00:16,000] INFO  {AppComp} <nid:1> Store = [5, 1, 2, 3, 4]
+[00:00:16,000] INFO  {AppComp} <nid:1> Removing 5
+[00:00:16,000] INFO  {AppComp} <nid:1> Store = [1, 2, 3, 4]
+[00:00:16,160] INFO  {GBEBComp} <nid:3> Updating Add History with <nid:11>
+[00:00:16,160] INFO  {AppComp} <nid:3> Store = [5, 1, 2, 3, 4]
+[00:00:16,160] INFO  {AppComp} <nid:3> Removing 5
+[00:00:16,160] INFO  {AppComp} <nid:3> Store = [1, 2, 3, 4]
+[00:00:16,292] INFO  {GBEBComp} <nid:5> Updating Add History with <nid:11>
+[00:00:16,292] INFO  {AppComp} <nid:5> Store = [5, 1, 2, 3, 4]
+[00:00:16,292] INFO  {AppComp} <nid:5> Removing 5
+[00:00:16,292] INFO  {AppComp} <nid:5> Adding 5 back
+[00:00:16,292] INFO  {AppComp} <nid:5> Store = [1, 2, 3, 4, 5]
+[00:00:16,326] INFO  {GBEBComp} <nid:12> Updating Add History with <nid:11>
+[00:00:16,326] INFO  {AppComp} <nid:12> Store = [5, 1, 2, 3, 4]
+[00:00:16,326] INFO  {AppComp} <nid:12> Removing 5
+[00:00:16,326] INFO  {AppComp} <nid:12> Store = [1, 2, 3, 4]
+[00:00:16,326] INFO  {GBEBComp} <nid:12> Updating Add History with <nid:5>
+[00:00:16,326] INFO  {AppComp} <nid:12> Store = [1, 2, 3, 4, 5]
+[00:00:16,381] INFO  {GBEBComp} <nid:14> Updating Add History with <nid:11>
+[00:00:16,381] INFO  {AppComp} <nid:14> Store = [5, 1, 2, 3, 4]
+[00:00:16,381] INFO  {AppComp} <nid:14> Removing 5
+[00:00:16,381] INFO  {AppComp} <nid:14> Store = [1, 2, 3, 4]
+[00:00:16,381] INFO  {GBEBComp} <nid:14> Updating Add History with <nid:5>
+[00:00:16,381] INFO  {AppComp} <nid:14> Store = [1, 2, 3, 4, 5]
+[00:00:17,065] INFO  {GBEBComp} <nid:2> Updating Add History with <nid:11>
+[00:00:17,065] INFO  {GBEBComp} <nid:2> Updating Add History with <nid:12>
+[00:00:17,065] INFO  {AppComp} <nid:2> Store = [5, 2, 1, 3, 4]
+[00:00:17,065] INFO  {AppComp} <nid:2> Store = [2, 1, 3, 4, 5]
+[00:00:17,246] INFO  {GBEBComp} <nid:4> Updating Add History with <nid:12>
+[00:00:17,246] INFO  {AppComp} <nid:4> Store = [1, 2, 3, 4, 5]
+[00:00:17,292] INFO  {GBEBComp} <nid:11> Updating Add History with <nid:12>
+[00:00:17,292] INFO  {AppComp} <nid:11> Store = [1, 2, 3, 4, 5]
+[00:00:17,346] INFO  {GBEBComp} <nid:13> Updating Add History with <nid:11>
+[00:00:17,346] INFO  {AppComp} <nid:13> Store = [1, 2, 3, 4, 5]
+[00:00:17,443] INFO  {GBEBComp} <nid:15> Updating Add History with <nid:11>
+[00:00:17,443] INFO  {AppComp} <nid:15> Store = [1, 2, 3, 4, 5]
+[00:00:18,000] INFO  {GBEBComp} <nid:1> Updating Add History with <nid:11>
+[00:00:18,000] INFO  {AppComp} <nid:1> Store = [1, 2, 3, 4, 5]
+[00:00:18,160] INFO  {GBEBComp} <nid:3> Updating Add History with <nid:11>
+[00:00:18,160] INFO  {AppComp} <nid:3> Store = [1, 2, 3, 4, 5]
+[00:00:02,000] INFO  {HostMngrComp} <nid:1>initiating...
+[00:00:02,000] INFO  {HostMngrComp} <nid:1>starting...
+[00:00:03,065] INFO  {HostMngrComp} <nid:2>initiating...
+[00:00:03,065] INFO  {HostMngrComp} <nid:2>starting...
+[00:00:04,000] WARN  {CroupierComp} <nid:1,oid:CROUPIER,o:01,bId:0> no partners - not shuffling
+[00:00:04,160] INFO  {HostMngrComp} <nid:3>initiating...
+[00:00:04,160] INFO  {HostMngrComp} <nid:3>starting...
+[00:00:05,065] WARN  {CroupierComp} <nid:2,oid:CROUPIER,o:01,bId:0> no neighbours
+[00:00:05,160] INFO  {HostMngrComp} <nid:11>initiating...
+[00:00:05,160] INFO  {HostMngrComp} <nid:11>starting...
+[00:00:06,000] INFO  {AppComp} <nid:1> VERTICES = [1, 2]
+[00:00:06,160] WARN  {CroupierComp} <nid:3,oid:CROUPIER,o:01,bId:0> no neighbours
+[00:00:06,246] INFO  {HostMngrComp} <nid:12>initiating...
+[00:00:06,246] INFO  {HostMngrComp} <nid:12>starting...
+[00:00:07,065] INFO  {AppComp} <nid:2> VERTICES = [2, 1]
+[00:00:07,065] INFO  {AppComp} <nid:2> VERTICES = [2, 1, 3]
+[00:00:07,160] WARN  {CroupierComp} <nid:11,oid:CROUPIER,o:01,bId:0> no neighbours
+[00:00:07,292] INFO  {HostMngrComp} <nid:13>initiating...
+[00:00:07,292] INFO  {HostMngrComp} <nid:13>starting...
+[00:00:08,000] INFO  {AppComp} <nid:1> VERTICES = [1, 2, 3]
+[00:00:08,160] INFO  {AppComp} <nid:3> VERTICES = [3, 1]
+[00:00:08,160] INFO  {AppComp} <nid:3> VERTICES = [3, 1, 2]
+[00:00:08,246] WARN  {CroupierComp} <nid:12,oid:CROUPIER,o:01,bId:0> no neighbours
+[00:00:09,160] INFO  {AppComp} <nid:11> EDGES = [(2 , 3)]
+[00:00:09,292] WARN  {CroupierComp} <nid:13,oid:CROUPIER,o:01,bId:0> no neighbours
+[00:00:10,000] INFO  {AppComp} <nid:1> VERTICES = [1, 3]
+[00:00:10,160] INFO  {AppComp} <nid:3> VERTICES = [3, 1]
+[00:00:10,246] INFO  {AppComp} <nid:12> EDGES = [(2 , 3)]
+[00:00:10,246] INFO  {AppComp} <nid:12> Removing edge (2,3)
+[00:00:10,246] INFO  {AppComp} <nid:12> EDGES = []
+[00:00:11,065] INFO  {AppComp} <nid:2> VERTICES = [1, 3]
+[00:00:11,160] INFO  {AppComp} <nid:11> Removing edge (2,3)
+[00:00:11,160] INFO  {AppComp} <nid:11> EDGES = []
+[00:00:11,292] INFO  {AppComp} <nid:13> EDGES = [(2 , 3)]
+[00:00:11,292] INFO  {AppComp} <nid:13> Removing edge (2,3)
+[00:00:11,292] INFO  {AppComp} <nid:13> EDGES = []
